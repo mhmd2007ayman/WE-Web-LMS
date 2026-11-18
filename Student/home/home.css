@@ -1,0 +1,142 @@
+.x{
+    background-image: url(../../Image/home.jpg);
+    background-repeat: no-repeat;
+    /* background-size: 86em 42em; */
+    background-size: cover;
+    overflow-x: hidden;
+
+    font-family: Arial, sans-serif;
+
+}
+.borderRaduis{
+    border-radius: 15px !important;
+}
+.nav-link:hover{
+    color: rgb(255, 255, 255)!important;
+}
+
+.present{
+    background-color: gray !important;
+    border-radius: 22px !important;
+    overflow: hidden !important;
+    width: 18rem !important;
+}
+.img{
+    /* border-radius: 24em;  */
+    width: 110% !important;
+    margin-left: -5% !important;
+}
+
+.slide{
+    width: 11.6rem;
+    margin-left: 17.8rem;
+}
+.slide2{
+    width: 180px;
+    margin-left: 17rem;
+}
+.slide3{
+    width: 20rem;
+    margin-left: 12rem;
+
+}
+
+.carousel{
+border: solid red 2px !important;
+border-radius: 2em !important;
+width: 46rem !important;
+margin: 0 auto !important;
+}
+.nn{
+    border-radius: 34px;
+    width: 63px;
+    background-color: white;
+    display: flex;
+    overflow: hidden;
+    height: 62px;
+}
+.B{
+    background-image: url(footer-bg.jpg) !important;
+    background: no-repeat;
+    width: 100%;
+    height: 11rem;
+
+}
+.M{
+    border-top: solid white;
+}
+.MN{
+    width: 51px;
+    border-radius: 54%;
+    height: 48px;
+    cursor: pointer;
+
+}
+
+.Md{
+    width: 559px;
+}
+.Mh{
+    width: 60%; 
+    padding: 5px;
+}
+
+@media screen and (min-width:320px) {
+    .Mh{
+        width: 90%;
+    }
+    
+}
+.imd{
+    height: 12em;
+    width: 12rem !important;
+    position: relative;
+    left: 15%;
+}
+.direct{
+    direction: rtl;
+    width: 100%;
+    font-size: 30px;
+}
+.direct2{
+    direction: rtl;
+
+}
+#c2{
+    width: 80% !important;
+}
+/* ---------------------------------------------------------------------------------------------------- */
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.news-item {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #fafafa;
+
+    direction: rtl;
+}
+
+.news-item h2 {
+    margin: 0 0 10px;
+    color: #007bff;
+}
+
+.news-item p {
+    margin: 0;
+    color: #555;
+}
+
+.news-item .date {
+    font-size: 0.9em;
+    color: #888;
+    margin-top: 10px;
+}
+.sad{
+    position: relative !important;
+    top: 11px !important;
+}

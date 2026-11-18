@@ -1,0 +1,6 @@
+{
+    "require": {
+        "james-heinrich/getid3": "^1.9",
+        "noorisys/stripe-payment": "^1.0"
+    }
+}

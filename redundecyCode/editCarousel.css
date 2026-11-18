@@ -1,0 +1,19 @@
+.slide{
+    width: 11.6rem;
+    margin-left: 17.8rem;
+}
+.slide2{
+    width: 180px;
+    margin-left: 17rem;
+}
+.slide3{
+    width: 20rem;
+    margin-left: 12rem;
+
+}
+
+.carousel{
+    border-radius: 2em !important;
+    width: 46rem !important;
+    margin: 0 auto !important;
+    }

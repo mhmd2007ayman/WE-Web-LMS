@@ -1,0 +1,69 @@
+body{
+    background: url(../../Image/Questions.jpg) no-repeat  !important;
+    background-size: cover !important;
+    background-position: center !important;
+    min-height: 100vh !important;
+    
+} 
+
+.Questions{
+display: flex;
+justify-content: center;
+margin: 0 auto;
+width: 18rem !important;
+height: 292px !important;
+border-radius: 42px;
+background-color:#ffa500;
+position: relative;
+transform-style: preserve-3d;
+transition: ease all 2s;
+transition: ease all 2s;
+perspective: 1200px;
+}
+
+.Questions:hover{
+        transform: rotateX(0deg) rotateY(-180deg);
+}
+
+.A{
+display: flex;
+transform-style: preserve-3d;
+transition: ease transform 2s, ease  5s;
+transform: translateZ(-1px) rotatey(-180deg);
+outline: none;
+margin: 0 auto;
+position: absolute;
+height: 100%;
+width: 100%;
+height: 100%;
+justify-content: center;
+background-color:#a0db8e;
+border-radius: 42px;
+}
+.Questions p ,A p{
+    font-size:28px;
+    color: rgba(253, 253, 253, 0.89);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.Con{
+    height: 39rem !important;
+    overflow-y: scroll;
+    width: 100% !important;
+    margin-top: 1% !important;
+    margin-left: 0% !important;
+}
+/* #dele{ */
+    
+    /* position: absolute;
+    width: 6rem;
+    height: 13%;
+    top: 15rem;
+    right: 1rem;
+    border-radius: 13px; */
+/* } */
+.fd{
+    flex-direction: column;
+}

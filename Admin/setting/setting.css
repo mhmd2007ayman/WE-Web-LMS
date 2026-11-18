@@ -1,0 +1,30 @@
+body{
+    
+    background-color: rgb(220, 229, 253);
+}
+
+.nnn{
+    display: inline-table;
+    border-radius: 63px;
+    width: 121px;
+    margin: 0%;
+    overflow: hidden;
+    height: 50px;
+    margin-bottom: 7px !important;
+
+}
+input{
+    border: 0.01px solid #0000ff1c;
+    padding: 9px;
+    border-radius: 14px;
+}
+form{
+    width: 90%;
+    
+}
+.bb{
+    border-radius: 15px;
+}
+.div{
+    width: 80%;
+}

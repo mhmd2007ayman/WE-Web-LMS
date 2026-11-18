@@ -1,0 +1,101 @@
+body{
+    background-image: url(../../Image/Questions&Answers.jpg);
+    background-repeat: no-repeat;
+    background-size: cover ;
+
+ }
+ .h2{
+    width: 44%;
+    margin: 0 auto;
+    border-radius: 15px;
+    height: 48px;
+}
+
+.p{
+    padding-top: 1%
+}  
+.divCard , .cardBody{
+    height: 15em;
+    width: 13rem;
+    border-radius: 22px
+}
+
+.imgCard{
+    width: 101%;
+    height: 84%;
+    
+}
+/* .imgCard:hover{
+    
+    
+} */
+
+.input{
+    border: black solid 2px;
+    border-radius: 20px;
+
+}
+.divv p{
+    font-size: 200px;
+    margin: auto;
+    margin-top: -35%;
+    margin-right: 15%;
+}
+#cardd{
+    position: relative;
+    transform-style: preserve-3d;
+    transition: ease all 2s;
+    transition: ease all 2s;
+    perspective: 1200px;
+}
+
+#cardd:hover{
+            transform: rotateX(0deg) rotateY(-180deg);
+}
+
+        .card-footerr{
+            display: flex ;
+            flex-direction: column;
+            transform-style: preserve-3d;
+            transition: ease transform 2s, ease  .5s;
+            transform: translateZ(-1px) rotatey(-180deg);
+            outline: none;
+            border-radius: 21px;
+            margin: 0 auto;
+            position: absolute;
+            height: 100%;
+            left: 0px;
+            width: 100%;
+            justify-content: center;
+        }  
+        
+        .card-footerr button{
+            width: 88%;
+            margin: 0 auto;
+        }
+.divqq{
+    border: 3px solid;
+    height: 280px;
+    overflow-y: scroll;
+    border-radius: 23px;
+}  
+::-webkit-scrollbar{
+    width: 10px;
+    border-radius: 5px;
+}
+::-webkit-scrollbar-track{
+    background-color: #f6f6f6;
+    border-radius: 5px;
+    margin: 18px;
+
+}  
+::-webkit-scrollbar-thumb{
+    background-color: 	#e54141;
+    border-radius: 5px;
+} 
+#NN{
+    width: 37%;
+    border-radius: 8px;
+    padding: 5px;
+    margin: auto;
+}

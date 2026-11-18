@@ -1,0 +1,17 @@
+body{
+    background-image: url(../../../../Image/backgroundView.jpg);
+    background-size: cover 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.time{
+    font-style: italic;
+    padding-right: 1%;
+}
+.imgAcount{
+    
+    width: 54px;
+    border-radius: 59%;
+    height: 54px;
+
+}

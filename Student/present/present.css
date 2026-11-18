@@ -1,0 +1,268 @@
+body{
+    background: url(../../Image/cards.jpg) no-repeat  !important;
+    background-size: cover !important;
+    background-position: center !important;
+    min-height: 100vh !important;
+    
+} 
+:root {
+	--blue: #0071FF;
+	--light-blue: #B6DBF6;
+	--dark-blue: #005DD1;
+	--grey: #f2f2f2;
+}
+
+.bb{
+    border-radius: 22px !important;
+    
+}
+.ul{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.pre{
+    border-radius: 22px !important;
+    width: 61rem !important;
+
+
+}
+
+
+
+
+h2{
+    width: 35%;
+    border-radius: 22px;
+    padding: 10px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.form{
+    background: rgb(0, 0, 0,0.2);
+    box-shadow: 0  15px  20px  rgb(0, 0, 0,0.6);
+}
+input , select {
+    height: 40px;
+    width: 95%;
+    padding: 0 10px;
+    border: 1px solid white;
+    outline: none;
+}
+.form2{
+    display: flex;
+    position: absolute;
+    left: 88%;
+    width: 31%;
+    height: 65%;
+    border: solid;
+}
+.Next{
+    background: linear-gradient();
+    height: 40px;
+}
+
+
+.NextTo{
+    transform: translate(-1000px);
+   
+} 
+
+.none{
+    transform: translate(-306px);
+}
+.bbb{
+    background: rgb(242,241, 240);
+    width: 63%;
+    height: 17em;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+.imgUP{
+    width: 62%;
+}
+.h3{
+    color: black;
+    /* align-self: center; */
+    
+}
+.uploadB{
+    display: block;
+    width: 90%;
+    padding: 4px 0;
+    border-radius: 15px;
+    background: steelblue;
+
+    color: #fff;
+    font-weight:500;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: all .3s ease;
+
+}
+.vvv{
+    position: absolute;
+    top: 46px;
+    left: 72px;
+    width: 65%;
+    object-fit: cover;
+    object-position: center;
+    height: 67%;
+    z-index: 100;
+}
+.uploadB:hover{
+    background-color: darkblue;
+
+}
+
+
+
+
+
+
+
+
+.container {
+max-width: 400px ;
+    width: 87% ;
+    background: #fff ;
+    padding: 17px ;
+    border-radius: 30px ;
+}
+.img-area  , .img-area3{
+	position: relative ; 
+	width: 100% ;
+	height: 240px ;
+	background: var(--grey) ;
+	margin-bottom: 30px ;
+	border-radius: 15px ;
+	overflow: hidden ;
+	display: flex ;
+	justify-content: center ;
+	align-items: center ;
+	flex-direction: column ;
+}
+.img-area2{
+    position: relative;
+    width: 7rem !important;
+    height: 110px;
+    background: var(--grey);
+    margin-bottom: 1px;
+    border-radius: 154px;
+    overflow: hidden;
+    display: flex;
+    margin-top: 15px;
+
+}
+.header3{
+
+    margin-top: 15px;
+    align-items: center;
+}
+.img-area h3,.img-area2 h3, .img-area3 h3 {
+	font-size: 20px ;
+	font-weight: 500 ;
+	margin-bottom: 6px ;
+}
+.img-area p,.img-area2 p, .img-area3 p {
+	color: #999 ;
+}
+.img-area span,.img-area2 span, .img-area3 span{
+	font-weight: 600 ;
+}
+.img-area img,.img-area2 img, .img-area3 img{
+	position: absolute ;
+	top: 0 ;
+	left: 0;
+	width: 100% ;
+	height: 100% ;
+	object-fit: cover ;
+	object-position: center ;
+	z-index: 100 ;
+}
+.img-area::before , .img-area2::before , .img-area3::before{
+	content: attr(data-img) ;
+	position: absolute ;
+	top: 0 ;
+	left: 0 ;
+	width: 100% ;
+	height: 100% ;
+	background: rgba(0, 0, 0, 0.5) ;
+	color: #fff ;
+	font-weight: 500 ;
+	text-align: center ;
+	display: flex ;
+	justify-content: center ;
+	align-items: center ;
+	pointer-events: none ;
+	opacity: 0 ;
+	transition: all .3s ease ;
+	z-index: 200 ;
+}
+.img-area.active:hover::before , .img-area2.active:hover::before , .img-area3.active:hover::before {
+	opacity: 1 ;
+}
+.select-image ,.select-image2, .select-image3 {
+	display: block ;
+	width: 100% ;
+	padding: 16px 0 ;
+	border-radius: 15px ;
+	background: var(--blue) ;
+	color: #fff ;
+	font-weight: 500 ;
+	font-size: 16px ;
+	border: none ;
+	cursor: pointer ;
+	transition: all .3s ease ;
+}
+.select-image ,.select-image2 ,.select-image3 :hover {
+	background: var(--dark-blue) ;
+}
+
+
+
+/* * {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+body {
+	 display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh; 
+	background: var(--light-blue);
+} */
+
+#Next2{
+	position: absolute;
+    left: 97%;
+    bottom: 1%
+}
+.mmb input , .mmb section{
+	border: none !important;
+}
+.textsize{
+    font-size: 2rem;
+}
+.texMo{
+	direction: rtl;
+}
+.textb{
+	direction: rtl;
+}
+#ff{
+	height: 53px;
+    margin: auto;
+    width: 160px;
+	margin-left: 5px;
+}
+.mmd{
+	height: 62px;
+}
+.card-header2{
+    width: 92%;
+}

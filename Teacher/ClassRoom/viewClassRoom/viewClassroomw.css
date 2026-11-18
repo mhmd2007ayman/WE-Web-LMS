@@ -1,0 +1,445 @@
+body{
+    background-image: url(../../../Image/backgroundView.jpg);
+    background-size: cover 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.nn{
+    border-radius: 34px;
+    width: 63px;
+    background-color: rgb(202, 52, 52);
+    display: flex;
+    overflow: hidden;
+    height: 62px;
+
+    
+}
+.advertisement{
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    border-radius: 14px;
+    box-shadow: grey 0 1px 0 1px;
+    margin-top: 9px;
+    margin-left: 11px;
+    padding: 5px;
+    cursor: pointer;
+    margin: auto;
+}
+.fer{
+    margin-top: 16px;
+    color: grey ;
+}
+#textEdit{
+    resize: none;
+    height: 156px; 
+    direction: rtl; 
+    border-radius: 5px;
+}
+.edit{
+    width: 32px;
+    padding: 1px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.div ,.file{
+    margin-top: 7px;
+    
+    padding: 2px;
+    justify-content: end;
+}
+
+.mord{
+    border: 1px solid black;
+    width: 92%;
+    height: 4rem;
+    padding: 5px;
+    margin: auto;
+    border-radius:12px;
+
+}
+.img{
+    width: 74px;
+    border-radius: 7px;
+}
+.img2{
+    width: 60%;
+    border-radius: 7px;
+    height: 94%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.close{
+    font-size: 28px;
+    cursor: pointer;
+}
+.nameAndType{
+    margin: auto;
+    font-size: 110%;
+    font-family: serif;
+}
+#files{
+    height: 6rem;
+    overflow-y: scroll;
+}
+
+
+
+
+
+
+
+/* .imgAcount{
+    width: 54px;
+    border-radius: 59%;
+    height: 54px;
+
+}
+.card{
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 15px !important;
+}
+ .h{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+} 
+
+.s p{
+    font-size: 25px;
+}
+
+.d{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+
+} 
+.f{
+    display: flex;
+    flex-direction: row-reverse;
+} 
+.nn{
+    cursor: pointer;
+}
+
+.time{
+    font-style: italic;
+    padding-right: 1%;
+}
+.delEdd{
+    cursor: pointer;
+}
+
+.chat{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    height: 28rem;
+    gap: 20px;
+} */
+
+.background{
+    /* background-image: url(empty-classroom-desk-with-books-pencils.jpg); */
+    background-color: #efefef;
+    width: 90%;
+    height: 12rem;
+    margin: auto;
+    border-radius: 20px;
+    margin-top: 1rem;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 5px;
+}
+
+.logoImg{
+    width: 80px;
+    position: fixed;
+    top: -8px;
+}
+
+
+.nn{
+    border-radius: 34px;
+    width: 63px;
+    background-color: white;
+    display: flex;
+    overflow: hidden;
+    height: 62px;
+}
+.Name{
+    font-size: 19px;
+    padding-bottom: 11px;
+    color: white;
+    font-weight: bold;
+}
+.header,.it{
+    background-color: #434ba9;
+    border: 1px solid white;
+    /* width: 50%; */
+    height: 5rem;
+    margin: 5px ;
+    /* margin-left: 17rem !important; */
+    }
+    .it{
+
+        align-items: center;
+        padding-left: 12px;
+        border-radius: 17px;
+        padding-right: 12px;
+
+        justify-content: center;
+        margin: auto;
+
+    }
+
+.cha{
+    color: white;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .advertisement {
+     width: 90%;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .advertisement {
+     width: 90%;
+    }
+  }
+
+  @media only screen and (max-width: 368px) {
+    .header,.header2{
+        margin-left: -120px;
+        width: 190%;
+    }
+  }
+
+  @media only screen and (max-width: 436px) {
+    .header,.header2{
+        margin-left: -120px;
+        width: 190%;
+    }
+  }
+
+  @media only screen and (max-width: 421px) {
+    .header,.header2{
+        margin-left: -1310px;
+        width: 190%;
+    }
+  }
+
+
+
+
+
+  .imgAcount{
+    
+    width: 54px;
+    border-radius: 59%;
+    height: 54px;
+
+}
+.card{
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 15px !important;
+}
+ .h{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+} 
+
+.s p{
+    font-size: 25px;
+}
+
+.d{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+
+} 
+.fd{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.nnv{
+    cursor: pointer;
+}
+
+.time{
+    font-style: italic;
+    padding-right: 1%;
+}
+.delEdd{
+    cursor: pointer;
+}
+
+.chat{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    height: 28rem;
+    gap: 20px;
+}
+
+
+
+
+.lis{
+        width: 13rem;
+        border: solid;
+        background-color: #cadfff;
+        border-radius: 7px;
+        display: none;
+        flex-direction: column;
+        gap: 3px;
+        padding: 5px;
+        position: absolute;
+}
+.lis button{
+    width: 100%;
+}
+
+
+
+
+.comments{
+    display: none;
+    position: fixed;
+    margin: auto !important;
+    right: -1%;
+    top: 1%;
+    bottom: 1%;
+    width: 100%;
+    border-radius: 15px !important;
+    height: 100%;
+    left: -1%;
+    z-index: 1;
+
+}  
+.comments2{
+    display: flex;
+    position: fixed;
+    margin: auto !important;
+    right: -1%;
+    top: 1%;
+    bottom: 1%;
+    width: 98%;
+    border-radius: 15px !important;
+    height: 98%;
+    left: -1%;
+    z-index: 1;
+
+}  
+    .body2{
+        border-radius: 15px !important;
+        height: 20rem;
+    }
+    .text{
+    border: solid black 1px;
+    border-radius: 18px;
+    width: 50%;
+    direction:rtl ; 
+    padding: 5px 
+    }
+    .head{
+        padding: 5px;
+        height: 34px;
+    }
+    .so{
+
+    width: 48px;
+
+    }
+    .clic{
+        width: 48px;
+        cursor: pointer;
+    }
+    .alert{
+        width: 57%;
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    margin: 1%;
+    right: 21%;
+    }
+    .imgZ{
+        width: 3rem;
+        height: 1rem;
+        border-radius: 5px;
+    }
+
+#btn-close{
+    margin: 0% !important;
+}
+.italic-button{
+    width: 7%;
+}
+.italic{
+    width: 117%;
+}
+
+/* //////////////////////////// */
+
+.header{
+    width: 90% ;
+    margin: auto !important;
+
+    height: 5rem;
+    margin: 5px auto;
+    border-radius: 17px;
+
+    align-items: center;
+    margin-right: 3px;
+
+
+}
+
+.nn{
+    border-radius: 34px;
+    width: 63px;
+    background-color: white;
+    display: flex;
+    overflow: hidden;
+    height: 62px;
+}
+.Name{
+    font-size: 19px;
+    padding-bottom: 11px;
+    color: white;
+    font-weight: bold;
+}
+
+.btn-send{
+    border:none;
+    background: transparent;
+}
+.nameAndType{
+    background: transparent;
+    border: none;
+    text-decoration: underline;
+    margin: auto;
+}
+
+.yy{
+    width: 98%;
+}
+.ffgds{
+    align-items: center;
+}

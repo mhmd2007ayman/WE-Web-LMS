@@ -1,0 +1,157 @@
+body{
+    background-image: url(../../Image/ClassRoomBackGround.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.AddClass{
+    margin:  auto;
+    width: 60%;
+    height: 485px;
+}
+.AddClass img{
+    width: 50%;
+}
+.btnAdd{
+    position: absolute;
+    bottom: 1%;
+    width: 66px;
+    height: 67px;
+    font-size: 262%;
+    text-align: center;
+    padding-top: 0px;
+}
+.btnn{
+    height: 45%;
+    width: 49%;
+}
+.Btn{
+    margin: 0;
+}
+.modall input{
+    height: 40px;
+    width: 95%;
+    padding: 0 10px;
+    border: 1px solid rgba(0, 0, 0, 0.521);
+    outline: none;
+}
+
+#freediv{
+    display: none;
+    position: absolute;
+    width: 92%;
+    height: 648px;
+}
+
+.present{
+    border-radius: 22px !important;
+    overflow: hidden !important;
+    width: 16rem !important;
+}
+
+.present p{
+    position: absolute;
+    top: 1%;
+    right: 1%;
+    font-size: 28px;
+    font-weight: bold;
+}
+.present span{
+    position: absolute;
+    top: 18%;
+    right: 1%;
+    font-size: 25px;
+    font-weight: 400;
+}
+.img{
+    /* border-radius: 24em;  */
+    width: 113% !important;
+    margin-left: -6% !important;
+    height: 94px;
+}
+
+.card-footer{
+    margin-top: 59%;
+}
+.ed{
+    margin-top: 17%;
+}
+
+
+
+
+
+
+
+
+.cardClass{
+    background-color: #fed766;
+    height: 20rem;
+    /* margin-top: 31px; */
+    border-radius: 28px;
+    width: 275px !important;
+    }
+    .for{
+        background: linear-gradient(135deg , rgba(255,255,255,0.1) ,rgba(255,255,255,0));
+        backdrop-filter: blur(6px);
+        -webkit-backdrop-filter: blur(6px);
+        border-radius: 20px;
+        border: solid 1px rgba(255,255,255,0.18);
+        box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+        padding: 15px;
+        margin:  auto;
+        margin-top: 13%;
+        overflow-y: scroll !important;
+        height: 22rem;
+        display: none;
+    }
+    .header{
+        background-color: #fe4a49;
+        width: 102%;
+        height: 5rem;
+        margin: 5px auto;
+        border-radius: 17px;
+    
+
+    }
+    .footer{
+    width: 91%;
+    height: 5rem;
+    border-radius: 27px;
+    background-color:  #e6e6ea;
+
+    }
+    .footer a , .footer button{
+        width: 71%;
+        height: 74%;
+        margin-top: 5%;
+    }
+    .nn{
+    border-radius: 34px;
+    width: 63px;
+    background-color: white;
+    display: flex;
+    overflow: hidden;
+    height: 62px;
+}
+.Name{
+    font-size: 19px;
+    padding-bottom: 11px;
+    color: white;
+    font-weight: bold;
+}
+.text{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    font-family: revert;
+
+}
+.center{
+    text-align: center;
+}
+.logoImg{
+    width: 80px;
+    position: fixed;
+    top: -8px;
+}

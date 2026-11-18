@@ -1,0 +1,54 @@
+
+.nn{
+    border-radius: 34px;
+    width: 50px;
+    background-color: white;
+    display: flex;
+    overflow: hidden;
+    height: 50px;
+}
+.navbar-nav{
+    gap: 36px;
+}
+.offcanvas-end {
+    width: 235px !important;
+}
+/* .ff{
+    width: 100%;
+    background-color: blue;
+    height: 10rem;
+    position: absolute;
+} */
+.AdminP{
+    margin: auto !important ; 
+    color: white;
+    margin-top: 0% !important;
+}
+.bgg{
+    background-color: rgb(0,117,186);
+}
+.offcanvas-body{
+    background-color: rgb(238, 245, 251);
+    background: url('../imageAdmin/pattern_h.png');
+}
+.im{
+    width: 100%;
+}
+.btnn{
+    background-color: transparent;
+    border: 1.3px solid rgb(32, 135, 184);
+    padding: 3px;
+}
+.D{
+    color: rgb(51, 175, 221) !important;
+}
+
+.nnb{
+    background-color: rgb(0,117,186); 
+    margin-top: 0px !important;
+}
+.activee{
+    background-color: rgb(216, 232, 245);
+    border-left: 2px solid rgb(3 ,117,187);
+    border-radius: 3px;
+}
